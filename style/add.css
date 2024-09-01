@@ -448,8 +448,40 @@ h4{
     font-size: 32px;
     font-weight: bold;
 }
-
-
+footer{
+    background-color: rgba(19, 19, 24, 0.05) ;
+    text-align: center;
+}
+#foot{
+    padding-top: 50px;
+    padding-left: 40%;
+}
+.much{
+    max-width: 800px ;
+    margin: 0px auto;
+}
+.insta > ul li{
+    list-style: none;
+}
+.insta a{
+    text-decoration: none;
+    color: #131318;
+}
+.insta > ul{
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    font-size: 24px;
+    padding-left: 43%;
+    padding-right: 0px;
+}
+footer hr{
+    max-width: 900px;
+}
+h6{
+    padding-top: 30px;
+    padding-bottom: 80px;
+}
 
 
 @media screen and (max-width:577px) {
@@ -506,9 +538,12 @@ h4{
         padding-left: 25px;
         padding-right: 10px;
     }
+    .mount{
+        text-align: center;
+    }
     .mount img{
         width: 340px;
-        margin-left: 25px;
+        margin-left: 0px;
         margin-top: 0px;
     }
     #read{
@@ -517,6 +552,10 @@ h4{
     .plan{
         font-size: 20px;
         font-weight: bold;
+    }
+    .pictures{
+        align-items: center;
+        text-align: center;
     }
     .pictures img{
         width: 335px;
@@ -528,10 +567,6 @@ h4{
     .pic,.pix-2{
         flex-direction: column;
         gap: 0px;
-        margin-bottom: 0px;
-        margin-left: 30px;
-        margin-right: 0px;
-        margin-top: 0px;
     }
     #center,
     #Srilanka,
@@ -539,7 +574,7 @@ h4{
     #Bangladesh{
         position: relative;
         bottom: 130px ;
-        left: 130px;
+        left: 160px;
         font-size: 20px;
         width: 80px;
         color: #ffffff;
@@ -550,7 +585,7 @@ h4{
     #Bangladesh{
         position: relative;
         bottom: 130px ;
-        left: 115px;
+        left: 150px;
         font-size: 20px;
         width: 80px;
         color: #ffffff;
@@ -717,6 +752,24 @@ h4{
         font-size: 22px;
         font-weight: bold;
     }
+    #last-itm{
+        font-size: 30px;
+    }
+    #foot img{
+        width: 30px;
+        height: 30px;
+    }
+    #foot{
+        gap: 10px;
+        padding-left: 110px;
+    }
+    .insta > ul{
+        padding-left: 28%;
+        padding-right: 0px;
+    }
+    footer hr{
+        max-width: 340px;
+    }
 } 
 
 
@@ -729,6 +782,10 @@ h4{
     .mount img{
         margin-left: calc((50% - 1px)/2);
         margin-top: 50px;
+    }
+    .pictures{
+        align-items: center;
+        text-align: center;
     }
     .pictures img{
         width: 700px;
@@ -793,5 +850,8 @@ h4{
         left: 35%;
         bottom: 210px;
         transform: rotate(-18deg);
+    }
+    #foot{
+        padding-left: 280px;
     }
 }
